@@ -1,0 +1,82 @@
+PRUEBA k_min=100
+Resumen Final:
+Total de Primos: 108
+Total de Compuestos: 92
+Condiciones iniciales: 6
+Condiciones finales: 7
+Condiciones utilizadas (k_min <= 100): 7
+Condiciones utilizadas (n <= 601): 9 = 7 + 2 (añadiendo los primos 2 y 3)
+
+PRUEBA k_min=1000
+Resumen Final:
+Total de Primos: 781
+Total de Compuestos: 1219
+Condiciones iniciales: 6
+Condiciones finales: 19
+Condiciones utilizadas (k_min <= 1000): 19
+Condiciones utilizadas (n <= 6001): 21 = 19 + 2 (añadiendo los primos 2 y 3)
+
+PRUEBA k_min=10000
+Resumen Final:
+Total de Primos: 6055
+Total de Compuestos: 13945
+Condiciones iniciales: 6
+Condiciones finales: 51
+Condiciones utilizadas (k_min <= 10000): 51
+Condiciones utilizadas (n <= 60001): 53 = 51 + 2 (añadiendo los primos 2 y 3)
+
+PRUEBA k_min=100000
+Resumen Final:
+Total de Primos: 49096
+Total de Compuestos: 150904
+Condiciones iniciales: 6
+Condiciones finales: 135
+Condiciones utilizadas (k_min <= 100000): 135
+Condiciones utilizadas (n <= 600001): 137 = 135 + 2 (añadiendo los primos 2 y 3)
+
+PRUEBA k_min=1000000
+Resumen Final:
+Total de Primos: 412847
+Total de Compuestos: 1587153
+Condiciones iniciales: 6
+Condiciones finales: 361
+Condiciones utilizadas (k_min <= 1000000): 361
+Condiciones utilizadas (n <= 6000001): 363 = 361 + 2 (añadiendo los primos 2 y 3)
+
+PRUEBA k_min=10000000
+Resumen Final:
+Total de Primos: 3562113
+Total de Compuestos: 16437887
+Condiciones iniciales: 6
+Condiciones finales: 980
+Condiciones utilizadas (k_min <= 10000000): 980
+Condiciones utilizadas (n <= 60000001): 982 = 980 + 2 (añadiendo los primos 2 y 3)
+
+k=9999999, 6k -1 = 59999993: PRIMO ✅ (k_min=599999860000008 > 10000000, NO SE AÑADE)
+k=9999999, 6k +1 = 59999995: COMPUESTO 🚫
+k=10000000, 6k -1 = 59999999: PRIMO ✅ (k_min=599999980000000 > 10000000, NO SE AÑADE)
+k=10000000, 6k +1 = 60000001: COMPUESTO 🚫
+
+PRUEBA k_min=100000000
+Resumen Final:
+Total de Primos: 31324702
+Total de Compuestos: 168675298
+Condiciones iniciales: 6
+Condiciones finales: 2715
+Condiciones utilizadas (k_min <= 100000000): 2715
+Condiciones utilizadas (n <= 600000001): 2717 = 2715 + 2 (añadiendo los primos 2 y 3)
+
+k=99999995, 6k +1 = 599999971: PRIMO ✅ (k_min=59999994200000140 > 100000000, NO SE AÑADE)
+k=99999996, 6k -1 = 599999975: COMPUESTO 🚫
+k=99999996, 6k +1 = 599999977: COMPUESTO 🚫
+k=99999997, 6k -1 = 599999981: COMPUESTO 🚫
+k=99999997, 6k +1 = 599999983: COMPUESTO 🚫
+k=99999998, 6k -1 = 599999987: COMPUESTO 🚫
+k=99999998, 6k +1 = 599999989: COMPUESTO 🚫
+k=99999999, 6k -1 = 599999993: COMPUESTO 🚫
+k=99999999, 6k +1 = 599999995: COMPUESTO 🚫
+k=100000000, 6k -1 = 599999999: COMPUESTO 🚫
+k=100000000, 6k +1 = 600000001: PRIMO ✅ (k_min=60000000200000000 > 100000000, NO SE AÑADE)
+
+Modelo Potencial: y = 0.580 * x^0.415
+R² Potencial: 0.9947
