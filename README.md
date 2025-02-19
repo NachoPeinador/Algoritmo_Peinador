@@ -65,7 +65,7 @@ Condiciones utilizadas (n <= 601): 9 = 7 + 2 (añadiendo los primos 2 y 3)
 5. Uso en Proyectos Académicos
 Cita este repositorio en tus publicaciones:
 
-Peinador Sala, J. I. (2023). Algoritmo de Identificación de Números Primos. Disponible en: https://github.com/tu_usuario/tu_repositorio
+Peinador Sala, J. I. (2025). Algoritmo de Identificación de Números Primos. Disponible en: https://github.com/tu_usuario/tu_repositorio
 
 6. Uso Comercial
 Contacta al autor para obtener una licencia comercial.
